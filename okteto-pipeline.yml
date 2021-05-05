@@ -1,0 +1,3 @@
+deploy:
+  - helm dependency update
+  - helm upgrade --install airflow chart
